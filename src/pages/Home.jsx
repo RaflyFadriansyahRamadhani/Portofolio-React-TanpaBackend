@@ -1,7 +1,9 @@
 import { formattedLogos, formattedHo } from '../utils/Loadimg';
 import fotodiri from "../assets/fotodiri.png";
-import { Link } from "react-router-dom";
 
+import { useNavigate } from "react-router-dom";
+
+  
 
 const downloadCV = () => {
   const link = document.createElement("a");
@@ -12,6 +14,7 @@ const downloadCV = () => {
 
 
 export default function Home() {
+  const navigate = useNavigate();
   return (
     <section className="mt-0 w-full min-h-screen bg-slate-900 pt-20">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-6 mt-4">
@@ -28,7 +31,7 @@ export default function Home() {
             {/* Tombol Contact */}
             <button
               type="button"
-              onClick={() => navigate("/Contact")}
+              onClick={() => navigate("/contact")}
               className="bg-white text-gray-800 hover:bg-gray-100 
                         focus:outline-none focus:ring-4 focus:ring-gray-300 
                         font-medium rounded-full text-base px-8 py-3
