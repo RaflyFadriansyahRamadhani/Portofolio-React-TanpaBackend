@@ -3,6 +3,7 @@
 // Glob statis per folder
 export const logos = import.meta.glob('../assets/img/logos/*.svg', { eager: true, as: 'url' });
 export const Ho = import.meta.glob('../assets/img/Ho/*.{png,jpg,jpeg,svg}', { eager: true, as: 'url' });
+export const Tokobunga = import.meta.glob('../assets/img/Tokobunga/*.{png,jpg,jpeg,svg}', { eager: true, as: 'url' });
 
 
 
@@ -18,3 +19,5 @@ const formatImages = (images) => {
 
 export const formattedLogos = formatImages(logos);
 export const formattedHo = formatImages(Ho);
+export const formattedTokobunga = formatImages(Tokobunga);
+
