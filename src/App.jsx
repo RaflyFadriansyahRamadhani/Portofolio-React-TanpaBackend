@@ -8,15 +8,17 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen ">
+      <div className="min-h-screen">
         <AppNavbar />
-        <main >
+
+        <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/porto" element={<Porto />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+
         <AppFoother />
       </div>
     </Router>
