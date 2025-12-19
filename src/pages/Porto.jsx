@@ -67,7 +67,7 @@ export default function Porto() {
   const projectData = [
     {
       title: "Home Event",
-      type: "Web Application · Academic Project",
+      type: "Web UI Design· Academic Project",
       overview:
         "Website event management berbasis web untuk membantu pengguna mengelola dan mempublikasikan acara secara terstruktur.",
       role: "UI/UX Designer, Web Developer",
@@ -95,7 +95,7 @@ export default function Porto() {
     },
     {
       title: "Aplikasi Zakat, Infak, dan Sedekah",
-      type: "Mobile App Design",
+      type: "Mobile App Design · Academic Project · Penelitia Ilmiah",
       overview:
         "Perancangan UI aplikasi ZIS dengan pendekatan Jakob’s Law dan Cognitive Load untuk menciptakan pengalaman pengguna yang sederhana dan intuitif.",
       role: "UI/UX Designer",
