@@ -184,9 +184,9 @@ export default function Home() {
         
         {/* Organisasi */}
         <div className="flex justify-center mt-8 px-4 py-4">
-          <div className="w-full max-w-1xl bg-gray-800 rounded-2xl shadow-lg p-8">
-            <h2 className="text-3xl font-bold mb-6 text-center text-white">Organisasi</h2>
-            <ol className="items-center sm:flex justify-center">
+          <div className="w-full max-w-2xl bg-gray-800 rounded-2xl shadow-lg p-8">
+            <h2 className="font-bold text-3xl mb-6 text-center text-white">Organisasi</h2>
+            <ol className="items-start sm:flex justify-center">
               {/* Item 1 */}
               <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
