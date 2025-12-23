@@ -243,7 +243,7 @@ export default function ContactForm() {
                     <p className="text-gray-400 text-sm">
                         Biasanya saya membalas dalam 24 jam. Atau hubungi langsung di{' '}
                         <a href="mailto:hello@example.com" className="text-cyan-400 hover:text-cyan-300 transition-colors font-medium">
-                            raflyfadriansyah19@gmail.com
+                            raflyfadriansyah19@gmail.com    
                         </a>
                     </p>
                 </div>

@@ -4,6 +4,7 @@ import {
   formattedTokobunga,
   formattedZis,
 } from "../utils/Loadimg";
+import { Link } from "react-router-dom";
 
 /* =======================
    Reusable Carousel
@@ -67,12 +68,13 @@ export default function Porto() {
   const projectData = [
     {
       title: "Home Event",
-      type: "Web UI Design· Academic Project",
+      type: "Web UI Design · Academic Project",
       overview:
         "Website event management berbasis web untuk membantu pengguna mengelola dan mempublikasikan acara secara terstruktur.",
       role: "UI/UX Designer, Web Developer",
       tools: "Figma, Laravel, MySQL",
       link: "https://www.figma.com/proto/GowtNzw6fpkx3dHAS5UEYP/PBW-Home-Event--Copy-?page-id=0%3A1&node-id=66-296",
+      linkcase: "/portofolio/homeevent",
       images: [
         formattedHo["home1"],
         formattedHo["Aboutus"],
@@ -87,6 +89,7 @@ export default function Porto() {
       role: "UI/UX Designer",
       tools: "Figma",
       link: "https://www.figma.com/proto/hrjijnIJpFQMB2ygiy4mL7/Tugas-SBD?page-id=0%3A1&node-id=65-33",
+      linkcase: "/portofolio/tokobunga",
       images: [
         formattedTokobunga["Home2"],
         formattedTokobunga["Detail About Chart"],
@@ -101,6 +104,7 @@ export default function Porto() {
       role: "UI/UX Designer",
       tools: "Figma, Heuristic Evaluation",
       link: "https://www.figma.com/proto/IPuvuPz1vy0BAlaVynkdYp/App-mobile-Zakat?page-id=0%3A1&node-id=159-218",
+      linkcase: "/portofolio/zakatinfak",
       images: [
         formattedZis["Home"],
         formattedZis["Zakat Fitrah"],
@@ -170,7 +174,35 @@ export default function Porto() {
                     dark:bg-white dark:text-gray-800 dark:hover:bg-gray-200">
                     View UI/UX Case Study
                   </button>
+                  
                 </a>
+                <Link
+                  to={project.linkcase}
+                  className="mt-6 inline-block"
+                >
+                  <button className="
+                    bg-white/30
+                    backdrop-blur-md
+                    border border-white/30
+                    text-white
+                    shadow-lg shadow-black/10
+                    hover:bg-white/40
+                    focus:outline-none
+                    focus:ring-4
+                    focus:ring-white/30
+                    font-medium
+                    rounded-full
+                    text-base
+                    px-8
+                    py-3
+                  ">
+
+                    View Case Study
+                  </button>
+
+                </Link>
+
+
               </div>
             </div>
           </div>
